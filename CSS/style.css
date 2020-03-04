@@ -2,7 +2,8 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/Images/VR_Background.jpg");*/
     background-size: cover;
-    background-color: #4CB6AD;
+   /* background-color: #4CB6AD;*/
+   background-color: royalblue;
 }
 
 header{
