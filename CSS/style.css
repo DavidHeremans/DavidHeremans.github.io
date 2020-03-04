@@ -4,7 +4,7 @@ body{
     width: 100%;
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/Images/VR_Background.jpg");*/
     background-size: cover;
-    background-color: #2D7E77;
+    background-color: rgb(76, 182, 173);
 }
 
 .nav-item{
@@ -13,6 +13,7 @@ body{
 
 li a{
     color: rgba(255, 255, 255, 1) !important;
+    font-size: 20px;
     
 }
 
