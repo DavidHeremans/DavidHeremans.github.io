@@ -1,0 +1,46 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    min-height: 100%;
+    width: 100%;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/Images/VR_Background.jpg");*/
+    background-size: cover;
+    background-color: #2D7E77;
+}
+
+.nav-item{
+    margin-right: 1em;
+}
+
+li a{
+    color: rgba(255, 255, 255, 1) !important;
+    
+}
+
+.banner{
+    margin: 7em 2em;
+    padding:  5em 10em;  
+}
+
+h1, h6{
+    color: white;
+    margin: 0;
+    width: 100%;
+}
+
+.about{
+    background-color: white;
+    width: 100%;
+    
+    min-height: 15em;
+}
+
+footer{
+    text-align: center;
+    margin-top: 1em;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
