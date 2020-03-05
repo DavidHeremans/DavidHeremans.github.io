@@ -1,67 +1,96 @@
-
-  
-  body{
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/Images/VR_Background.jpg");*/
     background-size: cover;
     background-color: #4CB6AD;
-  
+
 }
 
-header{
+header {
     margin-left: 20%;
     margin-right: 20%;
 }
 
 
-.nav-link{
+.nav-link {
     width: max-content;
     color: rgba(255, 255, 255, 1) !important;
     font-size: 22px;
 }
 
-.banner{
+
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+
+.banner {
     padding-top: 17em;
     padding-bottom: 19em;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/Images/VR_Background.jpg");
     background-size: cover;
 }
 
-h1{
+h1 {
     font-size: 70px;
 }
 
-h1, h2{
+h1,
+h2 {
     color: white;
     margin: 0;
     width: 100%;
 }
 
-.wBack{
-    background-color:white;  
+.wBack {
+    background-color: white;
     min-height: 15em;
 }
 
-.about{
+.about {
     color: white;
     margin: 5% 0;
 }
 
-section{
+section {
     padding: 3% 0;
 }
 
-#contact h3{
+#contact h3 {
     color: white;
 }
 
-footer{
+footer {
     text-align: center;
     margin-top: 1em;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: grey;
-  color: white;
-  text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
 }
+
+/*Media queries */
+@media only screen and (max-width: 1200px) {
+    .navbar-brand{
+        text-align: center;
+    }
+    .navbar-brand img {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .navbar-brand{
+        text-align: center;
+    } 
+    .navbar-brand img {
+        width: 60%;
+    }
+
+}
+
+
