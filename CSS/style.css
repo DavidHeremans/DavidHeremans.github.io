@@ -51,6 +51,10 @@ section{
     padding: 3% 0;
 }
 
+#contact h3{
+    color: white;
+}
+
 footer{
     text-align: center;
     margin-top: 1em;
