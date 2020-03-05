@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -10,33 +10,34 @@
   <link rel="stylesheet" href="./CSS/style.css">
 
   <title>Creative Goose Studios</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </head>
 
 <body>
   <header style="float: left;">
-  <nav class="navbar navbar-expand-lg container">
-    <a class="navbar-brand" href="#"><img src="./Images/LogoCGS-02.png" alt="logo" width="20%"></a>
+    <nav class="navbar navbar-expand-lg container">
+      <a class="navbar-brand" href="#"><img src="./Images/LogoCGS-02.png" alt="logo" width="25%"></a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto nav-bar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Over ons</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Producten</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto nav-bar-right">
+          <li class="nav-item">
+            <a class="nav-link home" href="#">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link overons" href="#overons">Over ons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link producten" href="#">Producten</a>
+          </li>
+          <li class="nav-item">
+            <a type="button" class="nav-link" href="#contact">Contact</a>
+          </li>
 
-      </ul>
-    </div>
-  </nav>
-</header>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <div class="banner">
     <div class="">
       <h1 class="text-center">Creative Goose Studios</h1>
@@ -44,7 +45,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" id="overons">
     <br>
     <div class="row about">
       <div class="col-sm">
@@ -70,10 +71,10 @@
 
   </section>
 
-  <div class="container">
+  <div class="container" id="contact">
     <br>
     <div class="row">
-        <h3>Contact</h3>    
+      <h3>Contact</h3>
       <div class="col-md-6">
         <form action="">
           <div class="row">
@@ -99,27 +100,29 @@
             </div>
             <div class="col-12">
               <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3" required></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"
+                  required></textarea>
               </div>
             </div>
-            
-          <div class="col-12">
-            <button class="btn btn-light" type="submit">Submit</button>
+
+            <div class="col-12">
+              <button class="btn btn-light" type="submit">Submit</button>
+            </div>
           </div>
-        </div>
-      </form>
-    </div>
+        </form>
+      </div>
       <div class="col-sm">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5289.918032909072!2d4.724062008753655!3d50.84704587284867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb2dba6fd812b1730!2sHogeschool%20UCLL%20-%20Campus%20Proximus!5e0!3m2!1snl!2sbe!4v1583321658608!5m2!1snl!2sbe"
           width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
       </div>
-    
-  </div>
+
+    </div>
   </div>
   <footer>
     Copyright &copy; Creative Goose Studios 2020
   </footer>
+  <script src="/Javascript/javascript.js"></script>
 </body>
 
 
