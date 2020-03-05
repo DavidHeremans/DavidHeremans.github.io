@@ -47,6 +47,10 @@ h1, h2{
     margin: 5% 0;
 }
 
+section{
+    padding: 3% 0;
+}
+
 footer{
     text-align: center;
     margin-top: 1em;
