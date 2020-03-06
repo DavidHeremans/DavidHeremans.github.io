@@ -63,6 +63,14 @@ section {
     padding: 3% 0;
 }
 
+section button{
+    background-color: #4CB6AD;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
 #contact h3 {
     color: white;
 }
