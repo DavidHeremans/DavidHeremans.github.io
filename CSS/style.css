@@ -75,6 +75,10 @@ section button{
     color: white;
 }
 
+#contact label{
+    color: white;
+}
+
 footer {
     margin-top: 1em;
     left: 0;
